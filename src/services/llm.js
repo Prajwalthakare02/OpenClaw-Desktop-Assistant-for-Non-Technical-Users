@@ -1,4 +1,7 @@
-import { getSetting, setSetting, deleteSetting, addLog, createAgent, addApproval } from "./openclaw";
+import {
+    getSetting, setSetting, deleteSetting, addLog, createAgent, addApproval,
+    installOpenClaw, runOpenClawOnboard, startGateway, detectOS, checkNodeInstalled, checkOpenClawInstalled,
+} from "./openclaw";
 
 const SYSTEM_PROMPT = `You are the Personaliz Desktop Assistant, powered by OpenClaw.
 You guide non-technical users through automation with plain English.
@@ -32,6 +35,8 @@ class LLMService {
         this.conversationHistory = [];
         this.localModelLoaded = false;
         this.onStatusChange = null;
+        this._pendingSetup = false;   // tracks if we asked user to confirm setup
+        this._lastSuggestedAgent = null;
     }
 
     async initialize() {
@@ -175,8 +180,15 @@ class LLMService {
         // This handles the assistant's conversational needs without a real model download
         const msg = message.toLowerCase().trim();
 
-        // Setup-related
+        // ── Setup confirmation (user said yes after setup prompt) ──
+        if (this._pendingSetup && (msg.includes("yes") || msg.includes("sure") || msg.includes("ok") || msg.includes("go ahead") || msg.includes("start") || msg.includes("set it up"))) {
+            this._pendingSetup = false;
+            return await this._executeSetup();
+        }
+
+        // ── Setup request ──
         if (msg.includes("setup") || msg.includes("install") || msg.includes("get started")) {
+            this._pendingSetup = true;
             return `🦞 Let's get OpenClaw set up on your system! Here's what I'll do:
 
 1. **Check your system** — Detect OS and verify Node.js is installed
@@ -184,24 +196,9 @@ class LLMService {
 3. **Run onboarding** — Execute \`openclaw onboard\` to configure everything
 4. **Start the Gateway** — Launch the OpenClaw gateway service
 
-Would you like me to start the setup process? Just say **"Yes, set it up"** to begin!
+Would you like me to start the setup process? Just say **"Yes"** to begin!
 
 💡 Tip: You can also go to **Settings** to enter an API key for a more powerful AI model.`;
-        }
-
-        if (msg.includes("yes") && (msg.includes("set it up") || msg.includes("go ahead") || msg.includes("start"))) {
-            return `🚀 Starting the setup process...
-
-**Step 1: System Check** ✅
-- Operating System: Windows
-- Node.js: Detected
-
-**Step 2: Installing OpenClaw** ⏳
-Running \`npm install -g openclaw@latest\`...
-
-I'm installing OpenClaw now. This may take a minute. I'll update you when it's done!
-
-📋 Navigate to the **Agents** tab to create your first automation once setup is complete.`;
         }
 
         // Confirm agent creation (user says yes/create/confirm after seeing preview)
@@ -385,8 +382,8 @@ Just type naturally and I'll guide you through everything!`;
 💡 Head to **Settings** to configure your LLM API key for enhanced responses.`;
         }
 
-        // Default greeting/response
-        if (msg.includes("hello") || msg.includes("hi") || msg.length < 5) {
+        // Default greeting/response (only for actual greetings, not short confirmations)
+        if (msg.includes("hello") || msg.includes("hi ") || msg === "hi" || (msg.length < 5 && !msg.includes("yes") && !msg.includes("ok"))) {
             return `👋 Hello! I'm your **OpenClaw Desktop Assistant** 🦞
 
 I'm here to help you automate tasks without touching the command line. Here are some things you can try:
@@ -413,6 +410,97 @@ Could you tell me more about what you'd like to accomplish? I'll break it down i
 
     clearHistory() {
         this.conversationHistory = [];
+        this._pendingSetup = false;
+        this._lastSuggestedAgent = null;
+    }
+
+    /**
+     * Actually execute the OpenClaw setup process.
+     * Calls real backend functions and returns a detailed progress report.
+     */
+    async _executeSetup() {
+        const os = detectOS();
+        let report = `🚀 **Starting Setup...**\n\n`;
+        report += `**Step 1: System Check** ✅\n`;
+        report += `- Operating System: ${os}\n`;
+
+        // Check Node.js
+        try {
+            const nodeOk = await checkNodeInstalled();
+            report += `- Node.js: ${nodeOk ? "✅ Detected" : "❌ Not found — please install Node.js first"}\n\n`;
+            if (!nodeOk) {
+                report += `⚠️ Node.js is required. Install it from [nodejs.org](https://nodejs.org) and try again.`;
+                await addLog("system", "Setup failed — Node.js not found", "error", "", "");
+                return report;
+            }
+        } catch {
+            report += `- Node.js: ⚠️ Could not verify (continuing anyway)\n\n`;
+        }
+
+        // Install OpenClaw
+        report += `**Step 2: Installing OpenClaw** ⏳\n`;
+        report += `Running \`npm install -g openclaw@latest\`...\n`;
+        try {
+            const installResult = await installOpenClaw();
+            if (installResult.success) {
+                report += `✅ OpenClaw installed successfully!\n\n`;
+                await addLog("system", "OpenClaw installed", "success", installResult.stdout, "");
+            } else {
+                report += `⚠️ Install returned warnings: ${installResult.stderr || "unknown"}\n`;
+                report += `(Continuing with setup...)\n\n`;
+                await addLog("system", "OpenClaw install warning", "info", installResult.stderr, "");
+            }
+        } catch (e) {
+            report += `⚠️ Installation encountered an issue: ${e}\n`;
+            report += `(This is OK if OpenClaw is already installed)\n\n`;
+        }
+
+        // Run onboarding
+        report += `**Step 3: Running Onboarding** ⏳\n`;
+        try {
+            const onboardResult = await runOpenClawOnboard();
+            if (onboardResult.success) {
+                report += `✅ Onboarding complete!\n\n`;
+                await addLog("system", "OpenClaw onboarding complete", "success", onboardResult.stdout, "");
+            } else {
+                report += `⚠️ Onboarding: ${onboardResult.stderr || "completed with warnings"}\n\n`;
+            }
+        } catch (e) {
+            report += `⚠️ Onboarding skipped: ${e}\n\n`;
+        }
+
+        // Start Gateway
+        report += `**Step 4: Starting Gateway** ⏳\n`;
+        try {
+            const gwResult = await startGateway();
+            if (gwResult.success) {
+                report += `✅ Gateway started on port 18789\n\n`;
+                await addLog("system", "Gateway started", "success", "", "");
+            } else {
+                report += `⚠️ Gateway may already be running or failed to start\n\n`;
+            }
+        } catch (e) {
+            report += `⚠️ Gateway: ${e}\n\n`;
+        }
+
+        // Final verification
+        try {
+            const installed = await checkOpenClawInstalled();
+            if (installed) {
+                report += `🎉 **Setup Complete!** OpenClaw is installed and ready.\n\n`;
+                report += `📋 Next steps:\n`;
+                report += `- Go to **Agents** tab to create your first agent\n`;
+                report += `- Or type **"Create a trending agent"** right here in chat\n`;
+                report += `- Check **Settings** → OpenClaw Status to verify`;
+            } else {
+                report += `⚠️ OpenClaw CLI not detected after install. You may need to restart the app or install manually.\n`;
+                report += `Run: \`npm install -g openclaw@latest\` in your terminal.`;
+            }
+        } catch {
+            report += `Setup steps completed. Check **Settings** → OpenClaw Status to verify.`;
+        }
+
+        return report;
     }
 }
 
