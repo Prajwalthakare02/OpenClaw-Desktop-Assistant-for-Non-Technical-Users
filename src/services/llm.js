@@ -486,6 +486,11 @@ Could you tell me more about what you'd like to accomplish? I'll break it down i
 
         await addLog("system", "Setup completed successfully", "success", "", "");
 
+        // Persist setup flag so Settings panel shows "Installed"
+        await setSetting("openclaw_setup_done", "true");
+        // Notify Settings panel (if mounted) to refresh status
+        window.dispatchEvent(new CustomEvent("openclaw:setup-complete"));
+
         return report;
     }
 }
