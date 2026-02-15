@@ -1,0 +1,1460 @@
+﻿cargo :     Updating 
+crates.io index
+At line:1 char:68
++ ... PROFILE\.cargo\
+bin;$env:PATH"; cd 
+src-tauri; cargo 
+build 2>&1 | Out-F 
+...
++                    
+                     
+         
+~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (    Upd   
+ ating crates.io     
+index:String) []    
+, RemoteExceptio    n
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+     Locking 518 
+packages to latest 
+compatible versions
+      Adding 
+generic-array 
+v0.14.7 (available: 
+v0.14.9)
+      Adding 
+rusqlite v0.31.0 
+(available: v0.38.0)
+      Adding toml 
+v0.8.2 (available: 
+v0.8.23)
+      Adding 
+toml_datetime v0.6.3 
+(available: v0.6.11)
+      Adding 
+toml_edit v0.20.2 
+(available: v0.20.7)
+ Downloading crates 
+...
+  Downloaded adler2 
+v2.0.1
+  Downloaded 
+convert_case v0.4.0
+  Downloaded dirs 
+v6.0.0
+  Downloaded 
+phf_shared v0.8.0
+  Downloaded strsim 
+v0.11.1
+  Downloaded 
+string_cache v0.8.9
+  Downloaded utf-8 
+v0.7.6
+  Downloaded 
+windows-strings 
+v0.4.2
+  Downloaded 
+windows-result v0.3.4
+  Downloaded 
+zerofrom-derive 
+v0.1.6
+  Downloaded zmij 
+v1.0.21
+  Downloaded 
+windows-version 
+v0.1.7
+  Downloaded 
+zerotrie v0.2.3
+  Downloaded 
+unicode-segmentation 
+v1.12.0
+  Downloaded 
+icu_properties_data 
+v2.1.2
+  Downloaded tauri 
+v2.10.2
+  Downloaded zerovec 
+v0.11.5
+  Downloaded chrono 
+v0.4.43
+  Downloaded time 
+v0.3.47
+  Downloaded wry 
+v0.54.2
+  Downloaded vcpkg 
+v0.2.15
+  Downloaded winnow 
+v0.7.14
+  Downloaded 
+regex-syntax v0.8.9
+  Downloaded 
+zerocopy v0.8.39
+  Downloaded tracing 
+v0.1.44
+  Downloaded 
+regex-automata 
+v0.4.14
+  Downloaded tao 
+v0.34.5
+  Downloaded syn 
+v2.0.115
+  Downloaded syn 
+v1.0.109
+  Downloaded idna 
+v1.1.0
+  Downloaded 
+hashbrown v0.16.1
+  Downloaded 
+hashbrown v0.14.5
+  Downloaded 
+brotli-decompressor 
+v5.0.0
+  Downloaded mio 
+v1.1.1
+  Downloaded 
+windows-threading 
+v0.1.0
+  Downloaded tokio 
+v1.49.0
+  Downloaded 
+windows-targets 
+v0.53.5
+  Downloaded 
+windows-targets 
+v0.52.6
+  Downloaded url 
+v2.5.8
+  Downloaded typenum 
+v1.19.0
+  Downloaded 
+serde_with v3.16.1
+  Downloaded 
+rusqlite v0.31.0
+  Downloaded brotli 
+v8.0.2
+  Downloaded regex 
+v1.12.3
+  Downloaded memchr 
+v2.8.0
+  Downloaded 
+indexmap v2.13.0
+  Downloaded ico 
+v0.5.0
+  Downloaded http 
+v1.4.0
+  Downloaded 
+hashbrown v0.12.3
+  Downloaded 
+aho-corasick v1.1.4
+  Downloaded libc 
+v0.2.182
+  Downloaded 
+zerovec-derive 
+v0.11.2
+  Downloaded yoke 
+v0.8.1
+  Downloaded 
+writeable v0.6.2
+  Downloaded winreg 
+v0.55.0
+  Downloaded 
+tauri-utils v2.8.2
+  Downloaded 
+tauri-plugin-shell 
+v2.3.5
+  Downloaded 
+serde_json v1.0.149
+  Downloaded png 
+v0.17.16
+  Downloaded muda 
+v0.17.1
+  Downloaded 
+icu_locale_core 
+v2.1.1
+  Downloaded winapi 
+v0.3.9
+  Downloaded 
+icu_collections 
+v2.1.1
+  Downloaded flate2 
+v1.1.9
+  Downloaded 
+crossbeam-channel 
+v0.5.15
+  Downloaded base64 
+v0.22.1
+  Downloaded 
+zerofrom v0.1.6
+  Downloaded 
+yoke-derive v0.8.1
+  Downloaded walkdir 
+v2.5.0
+  Downloaded uuid 
+v1.21.0
+  Downloaded 
+unicode-ident v1.0.23
+  Downloaded 
+tray-icon v0.21.3
+  Downloaded 
+window-vibrancy 
+v0.6.0
+  Downloaded serde 
+v1.0.228
+  Downloaded 
+windows_x86_64_msvc 
+v0.53.1
+  Downloaded 
+windows_x86_64_msvc 
+v0.52.6
+  Downloaded 
+schemars v1.2.1
+  Downloaded 
+schemars v0.9.0
+  Downloaded rand 
+v0.8.5
+  Downloaded rand 
+v0.7.3
+  Downloaded 
+miniz_oxide v0.8.9
+  Downloaded 
+indexmap v1.9.3
+  Downloaded 
+encoding_rs v0.8.35
+  Downloaded 
+icu_provider v2.1.1
+  Downloaded 
+icu_normalizer_data 
+v2.1.1
+  Downloaded 
+icu_normalizer v2.1.1
+  Downloaded 
+html5ever v0.29.1
+  Downloaded 
+getrandom v0.3.4
+  Downloaded 
+darling_core v0.21.3
+  Downloaded cfb 
+v0.7.3
+  Downloaded cc 
+v1.2.56
+  Downloaded bytes 
+v1.11.1
+  Downloaded 
+windows-future v0.2.1
+  Downloaded 
+windows-core v0.61.2
+  Downloaded 
+webview2-com v0.38.2
+  Downloaded 
+urlpattern v0.3.0
+  Downloaded tendril 
+v0.4.3
+  Downloaded 
+tauri-runtime-wry 
+v2.10.0
+  Downloaded 
+softbuffer v0.4.8
+  Downloaded litemap 
+v0.8.1
+  Downloaded 
+icu_properties v2.1.2
+  Downloaded 
+getrandom v0.4.1
+  Downloaded 
+getrandom v0.2.17
+  Downloaded 
+derive_more v0.99.20
+  Downloaded 
+cssparser v0.29.6
+  Downloaded 
+windows-numerics 
+v0.2.0
+  Downloaded 
+windows-link v0.2.1
+  Downloaded 
+windows-link v0.1.3
+  Downloaded 
+windows-interface 
+v0.59.3
+  Downloaded 
+windows-implement 
+v0.60.2
+  Downloaded 
+windows-collections 
+v0.2.0
+  Downloaded 
+winapi-util v0.1.11
+  Downloaded 
+webview2-com-macros 
+v0.8.1
+  Downloaded 
+vswhom-sys v0.1.3
+  Downloaded vswhom 
+v0.1.0
+  Downloaded 
+version_check v0.9.5
+  Downloaded 
+utf8_iter v1.0.4
+  Downloaded 
+unic-char-property 
+v0.9.0
+  Downloaded typeid 
+v1.0.3
+  Downloaded 
+tracing-core v0.1.36
+  Downloaded toml 
+v0.9.12+spec-1.1.0
+  Downloaded 
+time-macros v0.2.27
+  Downloaded 
+thiserror-impl 
+v2.0.18
+  Downloaded 
+thiserror-impl 
+v1.0.69
+  Downloaded 
+thiserror v2.0.18
+  Downloaded 
+thiserror v1.0.69
+  Downloaded 
+tauri-plugin-opener 
+v2.5.3
+  Downloaded socket2 
+v0.6.2
+  Downloaded 
+smallvec v1.15.1
+  Downloaded 
+serde_with_macros 
+v3.16.1
+  Downloaded 
+serde_derive v1.0.228
+  Downloaded 
+serde_core v1.0.228
+  Downloaded 
+selectors v0.24.0
+  Downloaded 
+schemars v0.8.22
+  Downloaded 
+proc-macro2 v1.0.106
+  Downloaded 
+pin-project-lite 
+v0.2.16
+  Downloaded 
+phf_macros v0.11.3
+  Downloaded 
+parking_lot_core 
+v0.9.12
+  Downloaded 
+parking_lot v0.12.5
+  Downloaded 
+once_cell v1.21.3
+  Downloaded 
+num-traits v0.2.19
+  Downloaded 
+markup5ever v0.14.1
+  Downloaded 
+lock_api v0.4.14
+  Downloaded 
+keyboard-types v0.7.0
+  Downloaded jsonptr 
+v0.6.3
+  Downloaded glob 
+v0.3.3
+  Downloaded dtoa 
+v1.0.11
+  Downloaded 
+deranged v0.5.6
+  Downloaded darling 
+v0.21.3
+  Downloaded 
+crossbeam-utils 
+v0.8.21
+  Downloaded 
+crc32fast v1.5.0
+  Downloaded cookie 
+v0.18.1
+  Downloaded 
+cargo_toml v0.22.3
+  Downloaded camino 
+v1.2.2
+  Downloaded 
+bitflags v2.11.0
+  Downloaded autocfg 
+v1.5.0
+  Downloaded anyhow 
+v1.0.101
+  Downloaded 
+windows-sys v0.59.0
+  Downloaded ahash 
+v0.8.12
+  Downloaded 
+unic-ucd-version 
+v0.9.0
+  Downloaded 
+unic-ucd-ident v0.9.0
+  Downloaded 
+unic-common v0.9.0
+  Downloaded 
+unic-char-range 
+v0.9.0
+  Downloaded 
+tracing-attributes 
+v0.1.31
+  Downloaded 
+toml_writer 
+v1.0.6+spec-1.1.0
+  Downloaded 
+windows-sys v0.61.2
+  Downloaded 
+windows-sys v0.60.2
+  Downloaded 
+toml_parser 
+v1.0.8+spec-1.1.0
+  Downloaded 
+toml_datetime 
+v0.7.5+spec-1.1.0
+  Downloaded 
+tokio-macros v2.6.0
+  Downloaded tinystr 
+v0.8.2
+  Downloaded 
+time-core v0.1.8
+  Downloaded 
+tauri-winres v0.3.5
+  Downloaded 
+tauri-runtime v2.10.0
+  Downloaded 
+tauri-plugin v2.5.3
+  Downloaded 
+tauri-macros v2.5.4
+  Downloaded 
+tauri-codegen v2.5.4
+  Downloaded 
+tauri-build v2.5.5
+  Downloaded 
+synstructure v0.13.2
+  Downloaded 
+simd-adler32 v0.3.8
+  Downloaded sha2 
+v0.10.9
+  Downloaded 
+servo_arc v0.2.0
+  Downloaded serde_de
+rive_internals 
+v0.29.1
+  Downloaded 
+serde-untagged v0.1.9
+  Downloaded semver 
+v1.0.27
+  Downloaded 
+schemars_derive 
+v0.8.22
+  Downloaded 
+ref-cast-impl v1.0.25
+  Downloaded 
+raw-window-handle 
+v0.6.2
+  Downloaded 
+rand_core v0.6.4
+  Downloaded 
+rand_core v0.5.1
+  Downloaded quote 
+v1.0.44
+  Downloaded 
+proc-macro-hack 
+v0.5.20+deprecated
+  Downloaded 
+ppv-lite86 v0.2.21
+  Downloaded 
+pkg-config v0.3.32
+  Downloaded phf 
+v0.11.3
+  Downloaded open 
+v5.3.3
+  Downloaded mime 
+v0.3.17
+  Downloaded matches 
+v0.1.10
+  Downloaded 
+match_token v0.1.0
+  Downloaded mac 
+v0.1.1
+  Downloaded log 
+v0.4.29
+  Downloaded 
+kuchikiki 
+v0.8.8-speedreader
+  Downloaded 
+json-patch v3.0.1
+  Downloaded infer 
+v0.19.0
+  Downloaded 
+hashlink v0.9.1
+  Downloaded 
+getrandom v0.1.16
+  Downloaded 
+find-msvc-tools 
+v0.1.9
+  Downloaded 
+fdeflate v0.3.7
+  Downloaded 
+fallible-iterator 
+v0.3.0
+  Downloaded 
+erased-serde v0.4.9
+  Downloaded 
+embed-resource v3.0.6
+  Downloaded dpi 
+v0.1.2
+  Downloaded 
+displaydoc v0.2.5
+  Downloaded digest 
+v0.10.7
+  Downloaded 
+cargo_metadata 
+v0.19.2
+  Downloaded 
+byteorder v1.5.0
+  Downloaded shlex 
+v1.3.0
+  Downloaded serializ
+e-to-javascript 
+v0.1.2
+  Downloaded 
+same-file v1.0.6
+  Downloaded 
+phf_generator v0.11.3
+  Downloaded 
+phf_generator v0.10.0
+  Downloaded 
+phf_generator v0.8.0
+  Downloaded 
+phf_codegen v0.11.3
+  Downloaded 
+num-conv v0.2.0
+  Downloaded 
+lazy_static v1.5.0
+  Downloaded itoa 
+v1.0.17
+  Downloaded 
+cpufeatures v0.2.17
+  Downloaded 
+string_cache_codegen 
+v0.5.4
+  Downloaded 
+stable_deref_trait 
+v1.2.1
+  Downloaded 
+siphasher v1.0.2
+  Downloaded 
+siphasher v0.3.11
+  Downloaded 
+shared_child v1.1.1
+  Downloaded serializ
+e-to-javascript-impl 
+v0.1.2
+  Downloaded 
+serde_spanned v1.0.4
+  Downloaded 
+serde_repr v0.1.20
+  Downloaded 
+scopeguard v1.2.0
+  Downloaded 
+rustc_version v0.4.1
+  Downloaded 
+ref-cast v1.0.25
+  Downloaded 
+rand_pcg v0.2.1
+  Downloaded 
+rand_chacha v0.3.1
+  Downloaded 
+rand_chacha v0.2.2
+  Downloaded 
+precomputed-hash 
+v0.1.1
+  Downloaded 
+powerfmt v0.2.0
+  Downloaded 
+potential_utf v0.1.4
+  Downloaded 
+phf_shared v0.11.3
+  Downloaded 
+phf_shared v0.10.0
+  Downloaded 
+idna_adapter v1.2.1
+  Downloaded 
+ident_case v1.0.1
+  Downloaded hex 
+v0.4.3
+  Downloaded heck 
+v0.5.0
+  Downloaded 
+generic-array v0.14.7
+  Downloaded fxhash 
+v0.2.1
+  Downloaded futf 
+v0.1.5
+  Downloaded 
+form_urlencoded 
+v1.2.2
+  Downloaded fnv 
+v1.0.7
+  Downloaded fallible
+-streaming-iterator 
+v0.1.9
+  Downloaded 
+equivalent v1.0.2
+  Downloaded 
+dyn-clone v1.0.20
+  Downloaded dunce 
+v1.0.5
+  Downloaded 
+dtoa-short v0.3.5
+  Downloaded 
+phf_macros v0.10.0
+  Downloaded 
+phf_codegen v0.8.0
+  Downloaded phf 
+v0.10.1
+  Downloaded phf 
+v0.8.0
+  Downloaded 
+percent-encoding 
+v2.3.2
+  Downloaded os_pipe 
+v1.2.3
+  Downloaded 
+option-ext v0.2.0
+  Downloaded nodrop 
+v0.1.14
+  Downloaded new_debu
+g_unreachable v1.0.6
+  Downloaded 
+dirs-sys-next v0.1.2
+  Downloaded 
+dirs-sys v0.5.0
+  Downloaded 
+dirs-next v2.0.0
+  Downloaded 
+darling_macro v0.21.3
+  Downloaded ctor 
+v0.2.9
+  Downloaded 
+cssparser-macros 
+v0.6.1
+  Downloaded 
+crypto-common v0.1.7
+  Downloaded 
+alloc-no-stdlib 
+v2.0.4
+  Downloaded cfg-if 
+v1.0.4
+  Downloaded 
+block-buffer v0.10.4
+  Downloaded 
+alloc-stdlib v0.2.2
+  Downloaded 
+cargo-platform v0.1.9
+  Downloaded 
+bitflags v1.3.2
+  Downloaded 
+libsqlite3-sys 
+v0.28.0
+  Downloaded 
+webview2-com-sys 
+v0.38.2
+  Downloaded windows 
+v0.61.3
+   Compiling 
+proc-macro2 v1.0.106
+   Compiling 
+unicode-ident v1.0.23
+   Compiling quote 
+v1.0.44
+   Compiling cfg-if 
+v1.0.4
+   Compiling 
+zerocopy v0.8.39
+   Compiling 
+serde_core v1.0.228
+   Compiling 
+windows-link v0.2.1
+   Compiling 
+smallvec v1.15.1
+   Compiling litemap 
+v0.8.1
+   Compiling 
+writeable v0.6.2
+   Compiling itoa 
+v1.0.17
+   Compiling 
+stable_deref_trait 
+v1.2.1
+   Compiling 
+getrandom v0.2.17
+   Compiling memchr 
+v2.8.0
+   Compiling 
+icu_properties_data 
+v2.1.2
+   Compiling 
+siphasher v1.0.2
+   Compiling 
+icu_normalizer_data 
+v2.1.1
+   Compiling 
+rand_core v0.6.4
+   Compiling 
+phf_shared v0.11.3
+   Compiling serde 
+v1.0.228
+   Compiling zmij 
+v1.0.21
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustc77NydW\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\Users\\Asus\\OneDriv
+e\\Desktop\\indeed\\N
+ew folder\\src-tauri\
+\target\\debug\\build
+\\icu_properties_data
+-63a161b8f319de4d\\bu
+ild_script_build-63a1
+61b8f319de4d.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\Us
+ers\\Asus\\OneDrive\\
+Desktop\\indeed\\New 
+folder\\src-tauri\\ta
+rget\\debug\\build\\i
+cu_properties_data-63
+a161b8f319de4d\\build
+_script_build-63a161b
+8f319de4d.build_scrip
+t_build.f70ca960673a3
+463-cgu.0.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcXBh0Ac\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\Users\\Asus\\OneDriv
+e\\Desktop\\indeed\\N
+ew folder\\src-tauri\
+\target\\debug\\build
+\\icu_normalizer_data
+-cca3bb706176ac7a\\bu
+ild_script_build-cca3
+bb706176ac7a.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\Us
+ers\\Asus\\OneDrive\\
+Desktop\\indeed\\New 
+folder\\src-tauri\\ta
+rget\\debug\\build\\i
+cu_normalizer_data-cc
+a3bb706176ac7a\\build
+_script_build-cca3bb7
+06176ac7a.build_scrip
+t_build.e3745ab532f5a
+afc-cgu.0.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcN8KjZF\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\Users\\Asus\\OneDriv
+e\\Desktop\\indeed\\N
+ew folder\\src-tauri\
+\target\\debug\\build
+\\proc-macro2-06dc239
+6c1f197e2\\build_scri
+pt_build-06dc2396c1f1
+97e2.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\Us
+ers\\Asus\\OneDrive\\
+Desktop\\indeed\\New 
+folder\\src-tauri\\ta
+rget\\debug\\build\\p
+roc-macro2-06dc2396c1
+f197e2\\build_script_
+build-06dc2396c1f197e
+2.build_script_build.
+1c2a5cbb1bfe7d59-cgu.
+0.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustctziIjh\\
+symbols.o" "<6 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\Users\\Asus\\OneDriv
+e\\Desktop\\indeed\\N
+ew folder\\src-tauri\
+\target\\debug\\build
+\\zerocopy-93ba1439ed
+85106e\\build_script_
+build-93ba1439ed85106
+e.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\Us
+ers\\Asus\\OneDrive\\
+Desktop\\indeed\\New 
+folder\\src-tauri\\ta
+rget\\debug\\build\\z
+erocopy-93ba1439ed851
+06e\\build_script_bui
+ld-93ba1439ed85106e.b
+uild_script_build.3d1
+8ec11a0d2cbcd-cgu.0.r
+cgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcZFjjsZ\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\Users\\Asus\\OneDriv
+e\\Desktop\\indeed\\N
+ew folder\\src-tauri\
+\target\\debug\\build
+\\quote-72614111386c7
+9be\\build_script_bui
+ld-72614111386c79be.e
+xe" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\Us
+ers\\Asus\\OneDrive\\
+Desktop\\indeed\\New 
+folder\\src-tauri\\ta
+rget\\debug\\build\\q
+uote-72614111386c79be
+\\build_script_build-
+72614111386c79be.buil
+d_script_build.ca0ee4
+654573c2fe-cgu.0.rcgu
+.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+note: `link.exe` 
+returned an 
+unexpected error
+
+note: you may need 
+to install Visual 
+Studio build tools 
+with the "C++ build 
+tools" workload
+
+error: could not 
+compile `icu_normaliz
+er_data` (build 
+script) due to 1 
+previous error
+warning: build 
+failed, waiting for 
+other jobs to 
+finish...
+error: could not 
+compile `quote` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `icu_properti
+es_data` (build 
+script) due to 1 
+previous error
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcRnn4Y2\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\Users\\Asus\\OneDriv
+e\\Desktop\\indeed\\N
+ew folder\\src-tauri\
+\target\\debug\\build
+\\serde_core-6c331697
+9245b5e1\\build_scrip
+t_build-6c3316979245b
+5e1.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\Us
+ers\\Asus\\OneDrive\\
+Desktop\\indeed\\New 
+folder\\src-tauri\\ta
+rget\\debug\\build\\s
+erde_core-6c331697924
+5b5e1\\build_script_b
+uild-6c3316979245b5e1
+.build_script_build.3
+62b4484c51eeae3-cgu.0
+.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: could not 
+compile 
+`proc-macro2` (build 
+script) due to 1 
+previous error
+error: could not 
+compile `zerocopy` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `serde_core` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcbnbiOo\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\Users\\Asus\\OneDriv
+e\\Desktop\\indeed\\N
+ew folder\\src-tauri\
+\target\\debug\\build
+\\serde_core-b75b5279
+c65f060a\\build_scrip
+t_build-b75b5279c65f0
+60a.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\Us
+ers\\Asus\\OneDrive\\
+Desktop\\indeed\\New 
+folder\\src-tauri\\ta
+rget\\debug\\build\\s
+erde_core-b75b5279c65
+f060a\\build_script_b
+uild-b75b5279c65f060a
+.build_script_build.8
+c649db665e84dfd-cgu.0
+.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: could not 
+compile `serde_core` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcCmp8Vj\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\Users\\Asus\\OneDriv
+e\\Desktop\\indeed\\N
+ew folder\\src-tauri\
+\target\\debug\\build
+\\zmij-1eccd671b92d37
+aa\\build_script_buil
+d-1eccd671b92d37aa.ex
+e" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\Us
+ers\\Asus\\OneDrive\\
+Desktop\\indeed\\New 
+folder\\src-tauri\\ta
+rget\\debug\\build\\z
+mij-1eccd671b92d37aa\
+\build_script_build-1
+eccd671b92d37aa.build
+_script_build.b2baeff
+0c791862a-cgu.0.rcgu.
+o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustc5FiJUw\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\Users\\Asus\\OneDriv
+e\\Desktop\\indeed\\N
+ew folder\\src-tauri\
+\target\\debug\\build
+\\serde-440a9404905b8
+cd6\\build_script_bui
+ld-440a9404905b8cd6.e
+xe" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\Us
+ers\\Asus\\OneDrive\\
+Desktop\\indeed\\New 
+folder\\src-tauri\\ta
+rget\\debug\\build\\s
+erde-440a9404905b8cd6
+\\build_script_build-
+440a9404905b8cd6.buil
+d_script_build.b80894
+3df7af4879-cgu.0.rcgu
+.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: could not 
+compile `serde` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `zmij` 
+(build script) due 
+to 1 previous error

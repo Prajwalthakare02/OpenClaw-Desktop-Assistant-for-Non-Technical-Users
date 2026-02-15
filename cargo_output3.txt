@@ -1,0 +1,746 @@
+﻿cargo :    Compiling 
+proc-macro2 v1.0.106
+At line:1 char:106
++ ... \openclaw"; 
+cargo build 
+--manifest-path "C:\o
+penclaw-build\Cargo.t
+oml ...
++                 ~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (   Comp   
+ iling proc-macro    
+2 v1.0.106:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+   Compiling quote 
+v1.0.44
+   Compiling 
+zerocopy v0.8.39
+   Compiling 
+serde_core v1.0.228
+   Compiling 
+icu_normalizer_data 
+v2.1.1
+   Compiling 
+icu_properties_data 
+v2.1.2
+   Compiling serde 
+v1.0.228
+   Compiling zmij 
+v1.0.21
+   Compiling 
+rand_core v0.6.4
+   Compiling 
+phf_shared v0.11.3
+   Compiling 
+siphasher v0.3.11
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustccvhJ4i\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw\\debug\\build\\icu
+_properties_data-63a1
+61b8f319de4d\\build_s
+cript_build-63a161b8f
+319de4d.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\ca
+rgo-target\\openclaw\
+\debug\\build\\icu_pr
+operties_data-63a161b
+8f319de4d\\build_scri
+pt_build-63a161b8f319
+de4d.build_script_bui
+ld.f70ca960673a3463-c
+gu.0.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+note: `link.exe` 
+returned an 
+unexpected error
+
+note: you may need 
+to install Visual 
+Studio build tools 
+with the "C++ build 
+tools" workload
+
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustc9g5jRN\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw\\debug\\build\\icu
+_normalizer_data-cca3
+bb706176ac7a\\build_s
+cript_build-cca3bb706
+176ac7a.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\ca
+rgo-target\\openclaw\
+\debug\\build\\icu_no
+rmalizer_data-cca3bb7
+06176ac7a\\build_scri
+pt_build-cca3bb706176
+ac7a.build_script_bui
+ld.e3745ab532f5aafc-c
+gu.0.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustclHXFks\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw\\debug\\build\\quo
+te-72614111386c79be\\
+build_script_build-72
+614111386c79be.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\ca
+rgo-target\\openclaw\
+\debug\\build\\quote-
+72614111386c79be\\bui
+ld_script_build-72614
+111386c79be.build_scr
+ipt_build.ca0ee465457
+3c2fe-cgu.0.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcRjYva2\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw\\debug\\build\\ser
+de_core-6c3316979245b
+5e1\\build_script_bui
+ld-6c3316979245b5e1.e
+xe" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\ca
+rgo-target\\openclaw\
+\debug\\build\\serde_
+core-6c3316979245b5e1
+\\build_script_build-
+6c3316979245b5e1.buil
+d_script_build.362b44
+84c51eeae3-cgu.0.rcgu
+.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: could not 
+compile `quote` 
+(build script) due 
+to 1 previous error
+warning: build 
+failed, waiting for 
+other jobs to 
+finish...
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcawchkD\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw\\debug\\build\\ser
+de-440a9404905b8cd6\\
+build_script_build-44
+0a9404905b8cd6.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\ca
+rgo-target\\openclaw\
+\debug\\build\\serde-
+440a9404905b8cd6\\bui
+ld_script_build-440a9
+404905b8cd6.build_scr
+ipt_build.b808943df7a
+f4879-cgu.0.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: could not 
+compile `icu_properti
+es_data` (build 
+script) due to 1 
+previous error
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcp5RQbO\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw\\debug\\build\\zmi
+j-1eccd671b92d37aa\\b
+uild_script_build-1ec
+cd671b92d37aa.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\ca
+rgo-target\\openclaw\
+\debug\\build\\zmij-1
+eccd671b92d37aa\\buil
+d_script_build-1eccd6
+71b92d37aa.build_scri
+pt_build.b2baeff0c791
+862a-cgu.0.rcgu.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: could not 
+compile `serde_core` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `icu_normaliz
+er_data` (build 
+script) due to 1 
+previous error
+error: could not 
+compile `serde` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `zmij` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustc8SbmBB\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw\\debug\\build\\pro
+c-macro2-06dc2396c1f1
+97e2\\build_script_bu
+ild-06dc2396c1f197e2.
+exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\ca
+rgo-target\\openclaw\
+\debug\\build\\proc-m
+acro2-06dc2396c1f197e
+2\\build_script_build
+-06dc2396c1f197e2.bui
+ld_script_build.1c2a5
+cbb1bfe7d59-cgu.0.rcg
+u.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcyAlvNS\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw\\debug\\build\\ser
+de_core-b75b5279c65f0
+60a\\build_script_bui
+ld-b75b5279c65f060a.e
+xe" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\ca
+rgo-target\\openclaw\
+\debug\\build\\serde_
+core-b75b5279c65f060a
+\\build_script_build-
+b75b5279c65f060a.buil
+d_script_build.8c649d
+b665e84dfd-cgu.0.rcgu
+.o'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: could not 
+compile 
+`proc-macro2` (build 
+script) due to 1 
+previous error
+error: could not 
+compile `serde_core` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`link.exe` failed: 
+exit code: 1
+  |
+  = note: "link.exe" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcbpSICN\\
+symbols.o" "<6 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw\\debug\\build\\zer
+ocopy-93ba1439ed85106
+e\\build_script_build
+-93ba1439ed85106e.exe
+" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: link: 
+extra operand 'C:\\ca
+rgo-target\\openclaw\
+\debug\\build\\zeroco
+py-93ba1439ed85106e\\
+build_script_build-93
+ba1439ed85106e.build_
+script_build.3d18ec11
+a0d2cbcd-cgu.0.rcgu.o
+'
+          Try 'link 
+--help' for more 
+information.
+          
+
+error: could not 
+compile `zerocopy` 
+(build script) due 
+to 1 previous error

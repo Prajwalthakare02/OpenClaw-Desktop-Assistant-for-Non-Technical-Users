@@ -1,0 +1,1276 @@
+﻿cargo :    Compiling 
+proc-macro2 v1.0.106
+At line:1 char:121
++ ... = "C:\cargo-tar
+get\openclaw2"; cd 
+src-tauri; cargo 
+build 2>&1 | Out-F 
+...
++                    
+                     
+         
+~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (   Comp   
+ iling proc-macro    
+2 v1.0.106:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+   Compiling quote 
+v1.0.44
+   Compiling 
+unicode-ident v1.0.23
+   Compiling cfg-if 
+v1.0.4
+   Compiling 
+zerocopy v0.8.39
+   Compiling 
+serde_core v1.0.228
+   Compiling 
+windows-link v0.2.1
+   Compiling 
+smallvec v1.15.1
+   Compiling litemap 
+v0.8.1
+   Compiling 
+writeable v0.6.2
+   Compiling itoa 
+v1.0.17
+   Compiling 
+stable_deref_trait 
+v1.2.1
+   Compiling 
+getrandom v0.2.17
+   Compiling memchr 
+v2.8.0
+   Compiling 
+icu_normalizer_data 
+v2.1.1
+   Compiling 
+icu_properties_data 
+v2.1.2
+   Compiling 
+siphasher v1.0.2
+   Compiling serde 
+v1.0.228
+   Compiling zmij 
+v1.0.21
+   Compiling 
+rand_core v0.6.4
+   Compiling 
+phf_shared v0.11.3
+   Compiling 
+siphasher v0.3.11
+   Compiling fnv 
+v1.0.7
+   Compiling 
+getrandom v0.1.16
+   Compiling 
+thiserror v2.0.18
+   Compiling 
+getrandom v0.4.1
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustczwIiLt\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\ic
+u_properties_data-63a
+161b8f319de4d\\build_
+script_build-63a161b8
+f319de4d.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustc8abRnK\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\ic
+u_normalizer_data-cca
+3bb706176ac7a\\build_
+script_build-cca3bb70
+6176ac7a.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustc2dYQYT\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\se
+rde_core-6c3316979245
+b5e1\\build_script_bu
+ild-6c3316979245b5e1.
+exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcgQqv4I\\
+symbols.o" "<6 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\ze
+rocopy-93ba1439ed8510
+6e\\build_script_buil
+d-93ba1439ed85106e.ex
+e" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcLknC4z\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\qu
+ote-72614111386c79be\
+\build_script_build-7
+2614111386c79be.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: could not 
+compile `icu_properti
+es_data` (build 
+script) due to 1 
+previous error
+warning: build 
+failed, waiting for 
+other jobs to 
+finish...
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcEGNrrd\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\pr
+oc-macro2-06dc2396c1f
+197e2\\build_script_b
+uild-06dc2396c1f197e2
+.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: could not 
+compile `icu_normaliz
+er_data` (build 
+script) due to 1 
+previous error
+error: could not 
+compile `zerocopy` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile `serde_core` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustc4mbjJ3\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\se
+rde_core-b75b5279c65f
+060a\\build_script_bu
+ild-b75b5279c65f060a.
+exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: could not 
+compile `quote` 
+(build script) due 
+to 1 previous error
+error: could not 
+compile 
+`proc-macro2` (build 
+script) due to 1 
+previous error
+error: could not 
+compile `serde_core` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcoWBxf5\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\zm
+ij-1eccd671b92d37aa\\
+build_script_build-1e
+ccd671b92d37aa.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: could not 
+compile `zmij` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcvbxMck\\
+symbols.o" "<3 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\se
+rde-440a9404905b8cd6\
+\build_script_build-4
+40a9404905b8cd6.exe" 
+"/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: could not 
+compile `serde` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustchp9MAf\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\ge
+trandom-cd5359f72234e
+5cd\\build_script_bui
+ld-cd5359f72234e5cd.e
+xe" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: could not 
+compile `getrandom` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustccwwYCy\\
+symbols.o" "<5 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\th
+iserror-d91cac4054dfb
+877\\build_script_bui
+ld-d91cac4054dfb877.e
+xe" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: could not 
+compile `thiserror` 
+(build script) due 
+to 1 previous error
+error: linking with 
+`rust-lld` failed: 
+exit code: 1
+  |
+  = note: "rust-lld" 
+"-flavor" "link" 
+"/NOLOGO" "C:\\Users\
+\Asus\\AppData\\Local
+\\Temp\\rustcdczNLR\\
+symbols.o" "<2 
+object files 
+omitted>" "<sysroot>\
+\lib\\rustlib\\x86_64
+-pc-windows-msvc\\lib
+/{libstd-*,libpanic_u
+nwind-*,libcfg_if-*,l
+ibwindows_targets-*,l
+ibrustc_demangle-*,li
+bstd_detect-*,libhash
+brown-*,librustc_std_
+workspace_alloc-*,lib
+unwind-*,librustc_std
+_workspace_core-*,lib
+alloc-*,libcore-*,lib
+compiler_builtins-*}.
+rlib" "kernel32.lib" 
+"kernel32.lib" 
+"kernel32.lib" 
+"ntdll.lib" 
+"userenv.lib" 
+"ws2_32.lib" 
+"dbghelp.lib" 
+"/defaultlib:msvcrt" 
+"/NXCOMPAT" "/OUT:C:\
+\cargo-target\\opencl
+aw2\\debug\\build\\ge
+trandom-caeba37449fd9
+ec0\\build_script_bui
+ld-caeba37449fd9ec0.e
+xe" "/OPT:REF,NOICF" 
+"/DEBUG" 
+"/PDBALTPATH:%_PDB%" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\int
+rinsic.natvis" "/NATV
+IS:<sysroot>\\lib\\ru
+stlib\\etc\\liballoc.
+natvis" "/NATVIS:<sys
+root>\\lib\\rustlib\\
+etc\\libcore.natvis" 
+"/NATVIS:<sysroot>\\l
+ib\\rustlib\\etc\\lib
+std.natvis"
+  = note: some 
+arguments are 
+omitted. use 
+`--verbose` to show 
+all linker arguments
+  = note: rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'kernel32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ntdll.lib': no 
+such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'userenv.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'ws2_32.lib': 
+no such file or 
+directoryΓÉì
+          rust-lld: 
+error: could not 
+open 'dbghelp.lib': 
+no such file or 
+directoryΓÉì
+          
+
+error: could not 
+compile `getrandom` 
+(build script) due 
+to 1 previous error
